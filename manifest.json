@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "External Package Managers in NPM",
+    "description": "A Chrome extension developed to insert install commands of other package managers.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": [ "https://www.npmjs.com/package/*" ]
+        }
+    ],
+    "permissions": [ "clipboardWrite" ],
+    "icons": {
+        "500": "images/icons500.png"
+    }
+}
