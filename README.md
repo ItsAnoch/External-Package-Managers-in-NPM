@@ -9,8 +9,5 @@ To add new schemas, modify the content.js file. Each schema should follow the fo
 
 Made with ❤️ by Anoch.
 
-
-
-
-
-
+Webview:
+![image](https://github.com/user-attachments/assets/bef5c8ff-b45b-45b4-b41e-b8a274810ff0)
